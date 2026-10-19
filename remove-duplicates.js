@@ -9,4 +9,5 @@ function duplicates(arr){
 }
 const arr=[10,12,14,16,16,25];
 
+
 console.log(duplicates(arr))
