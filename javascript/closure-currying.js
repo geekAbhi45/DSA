@@ -21,4 +21,13 @@ withdrawn(200)
 withdrawn(2000)
 
 
+//currying
+
+
+function discount(amount){
+  return function (percentage){
+    return (amount-(amount*percentage/100))
+  }
+}
+console.log(discount(1000)(20))
     
